@@ -9,3 +9,7 @@ export function formatSize(bytes: number): string {
 
     return parseFloat(String(bytes / Math.pow(k, i))).toFixed(2) + ' ' + size[i];
 }
+
+export const generateUuid = () => {
+    return crypto.randomUUID();
+}
