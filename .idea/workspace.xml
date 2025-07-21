@@ -4,44 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e525663-0714-49ae-b41c-2fd30127a1ea" name="Changes" comment="feat : initial setup done!!">
-      <change afterPath="$PROJECT_DIR$/app/components/Circle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/Navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/ResumeCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/puter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/auth.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/types/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/types/puter.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constants/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+    <list default="true" id="2e525663-0714-49ae-b41c-2fd30127a1ea" name="Changes" comment="feat : Home page is build">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/root.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/auth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/auth.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/welcome/logo-dark.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/welcome/logo-light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/welcome/welcome.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/public/icons/ats-bad.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/ats-bad.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/public/icons/ats-good.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/ats-good.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/public/icons/ats-warning.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/ats-warning.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/public/icons/back.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/back.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/public/icons/check.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/check.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/public/icons/cross.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/cross.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/public/icons/info.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/info.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/public/icons/pin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/pin.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/public/icons/warning.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/warning.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/public/images/bg-auth.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/bg-auth.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/public/images/bg-main.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/bg-main.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/public/images/bg-small.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/bg-small.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/public/images/pdf.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/pdf.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/public/images/resume-scan-2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/resume-scan-2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/public/images/resume-scan.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/resume-scan.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/public/images/resume_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/resume_01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/public/images/resume_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/resume_02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/public/images/resume_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/resume_03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/public/pdf.worker.min.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/public/pdf.worker.min.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +43,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -133,7 +100,7 @@
       <workItem from="1753008426188" duration="1192000" />
       <workItem from="1753015211995" duration="1027000" />
       <workItem from="1753020085935" duration="4348000" />
-      <workItem from="1753026492279" duration="5019000" />
+      <workItem from="1753026492279" duration="6616000" />
     </task>
     <task id="LOCAL-00001" summary="feat : initial setup done!!">
       <option name="closed" value="true" />
@@ -143,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753019476602</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat : Home page is build">
+      <option name="closed" value="true" />
+      <created>1753089842293</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753089842294</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +137,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat : initial setup done!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : initial setup done!!" />
+    <MESSAGE value="feat : Home page is build" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : Home page is build" />
   </component>
 </project>
