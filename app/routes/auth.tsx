@@ -1,6 +1,6 @@
-import { usePuterStore } from "~/lib/puter";
 import { useEffect } from "react";
 import { useLocation, useNavigate } from "react-router";
+import { usePuterStore } from "~/lib/puter";
 
 export const meta = () => [
   {
@@ -15,13 +15,18 @@ export const meta = () => [
 const Auth = () => {
   const { isLoading, auth } = usePuterStore();
   const location = useLocation();
-  const next = location.search.split("next=")[1];
   const navigate = useNavigate();
+  // Default to home if no next param
+  const next = location.search.includes("next=")
+    ? decodeURIComponent(location.search.split("next=")[1].split("&")[0])
+    : "/";
+
   useEffect(() => {
     if (auth.isAuthenticated) {
-      navigate(next);
+      navigate(next, { replace: true });
     }
-  }, [auth.isAuthenticated]);
+  }, [auth.isAuthenticated, next, navigate]);
+
   return (
     <main
       className={

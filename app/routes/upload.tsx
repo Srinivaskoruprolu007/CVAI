@@ -91,26 +91,26 @@ const Upload = () => {
     handleAnalyze({ companyName, jobTitle, jobDescription, file });
   };
   return (
-    <main className={"bg-[url('/images/bg-main.svg')] bg-cover"}>
+    <main className="bg-gradient-to-br from-light-teal-100 to-purple-100 min-h-screen">
       <Navbar />
-      <section className={"main-section"}>
-        <div className={"page-heading py-16 text-center"}>
-          <h1 className="text-4xl font-bold mb-4 text-gray-900">
+      <section className="main-section">
+        <div className="page-heading py-12 text-center">
+          <h1 className="text-5xl font-bold mb-4 text-gradient">
             Smart feedback for your dream job
           </h1>
           {isProcessing ? (
             <div className="flex flex-col items-center gap-4 mt-4">
-              <h2 className="text-lg font-medium text-blue-700 animate-pulse">
+              <h2 className="text-2xl font-semibold text-purple-600 animate-pulse">
                 {statusText}
               </h2>
               <img
                 src={"/images/resume-scan.gif"}
                 alt="Analyzing..."
-                className="w-16 h-16"
+                className="w-20 h-20 rounded-xl shadow-lg border-2 border-purple-200"
               />
             </div>
           ) : (
-            <h2 className="text-xl text-gray-700 mt-2">
+            <h2 className="text-2xl text-dark-200 mt-2">
               Drop your resume for an ATS score and improvement tips
             </h2>
           )}
@@ -157,7 +157,7 @@ const Upload = () => {
                 <FileUploader onFileSelect={handleFileSelect} />
               </div>
             </div>
-            <button type={"submit"} className={"primary-button mt-2"}>
+            <button type={"submit"} className={"primary-button mt-2 text-lg font-semibold rounded-lg"}>
               Analyze Resume
             </button>
           </form>
