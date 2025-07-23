@@ -120,6 +120,12 @@ npm run build
 
 ## 🚢 Deployment
 
+### Vercel
+
+The app is deployed at:
+
+**[https://cvai-phi.vercel.app/](https://cvai-phi.vercel.app/)**
+
 ### Docker
 
 Build and run the app in a container:
